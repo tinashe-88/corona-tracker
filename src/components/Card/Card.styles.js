@@ -35,7 +35,7 @@ export const DeathStyles = styled(CardContent)`
   border-left: 10px solid ${props => props.theme.colors.deaths};
 `
 
-export const CardTitle = styled.h3`
+export const CardTitle = styled.h2`
 
 `
 
