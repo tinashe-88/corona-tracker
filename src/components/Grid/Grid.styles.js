@@ -19,7 +19,7 @@ export const GridStyle = styled.div`
 `
 
 export const GridItem = styled.div`
-  padding: 12px;
+  padding: 0;
   flex-grow: 0;
   max-width: 100%;
   flex-basis: 100%;

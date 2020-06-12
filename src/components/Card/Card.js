@@ -24,9 +24,9 @@ const theme = {
     infected: "#FFB700",
     recovered: "#19A974",
     deaths: "#FF725C",
-    black: "##333333",
+    black: "#333333",
     white: "#f1f1f1",
-    gray: "#999999"
+    gray: "#777777"
   },
   fontSizes: {
     sm: "1em",
@@ -68,7 +68,6 @@ const Card = ({ data: { confirmed, recovered, deaths, lastUpdate }}) => {
           </InfectedStyles>
         </Grid>
         <Grid>
-
           <RecoveredStyles>
             <CardTitle>
               Confirmed Recovered

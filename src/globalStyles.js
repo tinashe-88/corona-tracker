@@ -16,10 +16,14 @@ const GlobalStyle = createGlobalStyle`
   }
 
   a {
-    box-shadow: none;
+    
     text-decoration: none;
     cursor: pointer;
     color: #999;
+    transition: color 0.25s ease-in;
+    &:hover {
+      color: #333;
+    }
   }
 
   img {

@@ -19,10 +19,10 @@ const Footer = () => (
       </a>
     </FooterText>
     <FooterText>
-      This statistics for COVID-19 get updated every 8 hours via mathdroid API, 
-      which accesses data by John Hopkins University CSSE.
+      Statistics for COVID-19 will be updated every 8+ hours via mathdroid API, 
+      which accesses the data from John Hopkins University CSSE.
       <br/>
-      API source: 
+      API source:{` `}
       <a 
         href={`https://github.com/mathdroid/covid-19-api`}
         target="__blank"

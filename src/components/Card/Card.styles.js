@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const CardContainer = styled.div`
-  min-width: 275px;
+  min-width: 179px;
+  min-height: 260px;
   overflow: hidden;
   border-radius: 4px;
   color: rgba(0, 0, 0, 0.87);
@@ -62,10 +63,10 @@ export const NumberDeaths = styled(TextContent)`
 `
 
 export const AltText = styled(TextContent)`
-  color: #d3d3d3;
+  color: ${props => props.theme.colors.black};
 `
 
 export const DateStyles = styled.span`
   font-weight: bold;
-  color: #d1d1d1;
+  color: ${props => props.theme.colors.gray};
 `
