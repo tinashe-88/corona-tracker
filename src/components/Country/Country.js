@@ -22,15 +22,16 @@ const Country = ({ handleCountryChange }) => {
   
   return (
     <CountryContainer>
-      <LabelStyles>
+      <LabelStyles htmlFor="country-select">
         Select country:
       </LabelStyles>
       <InputContainer>
         <SelectStyles 
-          defaultValue="" 
           onChange={(e) => {
             handleCountryChange(e.target.value)
           }}
+          name="countries" 
+          id="country-select"
         >
           <OptionStyles value="">Global</OptionStyles>
           {

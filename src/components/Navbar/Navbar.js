@@ -2,7 +2,7 @@ import React from 'react'
 
 import {
   NavbarContainer,
-  HeaderContainer
+  HeaderContainer,
 } from './Navbar.styles'
 
 const Navbar = () => (
